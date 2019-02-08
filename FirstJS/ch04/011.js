@@ -59,4 +59,3 @@ if (100 < funds)
     console.log('Returns to the ship happily.');
 else
     console.log('Saddly returns to the ship.');
-
