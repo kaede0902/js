@@ -26,8 +26,33 @@ ctrl x ctrl s: complete speLL?
 ctrl v: start rectangle slect mode.
     this can copy text without line num.
 ctrl a: increment num on cursor
+ctrl x: decrement num on cursor
 ctrl d: down for half screen.
 ctrl u: up for half screen.
 ctrl e: scroll screen 1 line.
 
+### move cursor
+gg: to the top
+G: to the end
+
+0: to the line top
+^: to the indentted top
+$: to the line end
+
++: to the top of the upper line
+-: to the top of the lower line.
+
+:30  go to the line 30.
+
+e: to the word end
+E: to the word end include 'word. word:'
+(b,B,w,W are the same)
+
+f: to the following char
+F: back to the following char
+
+%: to the parental.
+
+ctrl o: back jumped point
+ctrl i: forward jumped point
 
