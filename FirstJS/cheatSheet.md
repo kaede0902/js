@@ -23,4 +23,11 @@ ctrl x ctrl l: complete the line
 ctrl x ctrl s: complete speLL?
 
 ## Normal mode commands
-ctrl v: 
+ctrl v: start rectangle slect mode.
+    this can copy text without line num.
+ctrl a: increment num on cursor
+ctrl d: down for half screen.
+ctrl u: up for half screen.
+ctrl e: scroll screen 1 line.
+
+
