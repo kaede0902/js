@@ -49,3 +49,11 @@
     export PATH="/usr/local/bin:$PATH"
 
     .rbenvを見ればいいのか？
+    >> No
+
+    Add .bash_profile
+        source ~/.bashrc
+    Add .bashrc
+        export PATH="/usr/local/bin:$PATH"
+    refresh
+        source ~/.bash_profile
