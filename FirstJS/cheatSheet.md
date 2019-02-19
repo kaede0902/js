@@ -7,6 +7,8 @@ a: go to insert from Right of the cursor
 A: go to insert from End of the line
 o: go end and return and go to insert
 O: make empty line upper the cursor and insert there.
+ciw: del cursor word and insert
+ci[: del around cursor parent inner and insert
 
 ## insert mode commands
 ctrl c: go to Normal mode
@@ -55,4 +57,12 @@ F: back to the following char
 
 ctrl o: back jumped point
 ctrl i: forward jumped point
+
+}: to the next paragraph
+{: back to the last paragraph
+
+## copy and paste
+yy: copy one line
+p: paste
+
 
