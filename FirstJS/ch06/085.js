@@ -7,9 +7,7 @@ function update(birthYear, job) {
     this.job = job;
 }
 console.log(bruce);
-update.apply(bruce,[1955,'acter']);
+const newBruce = [1940,'fighter'];
+update.call(bruce, ...newBruce);
 console.log(bruce);
 
-console.log(madeline);
-update.apply(madeline, [1918,'writer']);
-console.log(madeline);
