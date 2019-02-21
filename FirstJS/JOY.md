@@ -106,3 +106,17 @@ TownWork webから応募
     * フォロワーに励ましてもらって泣かずに済んだ。
         「接客じゃなくてPC使った事務向いてるよ」って。
         その後のアキバの事務のバイトは落ちた。
+
+## 2/19
+* 17:30に店長から「今日人が多いから休みにしていいか」と言われた。
+    * I obayed.
+## 2/20
+* Song Reol and boss girl scolled me don't do like that.
+    * I have to sing more popular, like YUI? Janese?
+* I pushed boss girl's beer into PM tea Kyogetu.
+* Mean Caba girl customer didn't scold me today.
+* I said boss to del one next week's shift, and she said
+"It is not a play. Have a responsibility." Although she shorten
+my work time 2h, and told to delete yesterday! 6h ago!
+-- I realized we are not equal position at all. Nuts!.
+
