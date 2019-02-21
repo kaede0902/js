@@ -31,7 +31,8 @@ ctrl a: increment num on cursor
 ctrl x: decrement num on cursor
 ctrl d: down for half screen.
 ctrl u: up for half screen.
-ctrl e: scroll screen 1 line.
+ctrl e: scroll down screen 1 line.
+ctrl y: scroll up screen 1 line.
 
 ### move cursor
 gg: to the top
@@ -50,7 +51,7 @@ e: to the word end
 E: to the word end include 'word. word:'
 (b,B,w,W are the same)
 
-f: to the following char
+f'c': to the following char
 F: back to the following char
 
 %: to the parental.
