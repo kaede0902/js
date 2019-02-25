@@ -120,3 +120,14 @@ TownWork webから応募
 my work time 2h, and told to delete yesterday! 6h ago!
 -- I realized we are not equal position at all. Nuts!.
 
+## 2/21
+* Owner's customer, 5 ppl came. hostess and 4 man
+    * hostess boy work with us.
+* Very bad attitude
+* Owner and Boss and customer said to wants us Very Heigh club men
+    we are only 1.3k/h workers! nearly min pay/h!! No train fee!
+* I heard the cute little girl boss beaten by mic by Owner,
+    although she did nothing. caba boy said he will beaten back.
+* I think I will not continue long. just for April.
+
+
