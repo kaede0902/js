@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>mouse on</title>
+</head>
+<body>
+    <div>sample1</div> <div>sample1</div><div>sample1</div><div>sample1</div><div>sample1</div><div>sample1</div><div>sample1</div><div>sample1</div><div>sample1</div><div>sample1</div><div>sample1</div><div>sample1</div><div>sample1</div><div>sample1</div><div>sample1</div><div>sample1</div><div>sample1</div><div>sample1</div><div>sample1</div><div>sample1</div><div>sample1</div><div>sample1</div><div>sample1</div><div>sample1</div><div>sample1</div><div>sample1</div><div>sample1</div><div>sample1</div><div>sample1</div><div>sample1</div><div>sample1</div><div>sample1</div><div>sample1</div><div>sample1</div><div>sample1</div><div>sample1</div>
+
+<script>
+    function showBorder() {
+        this.style.border = '3px solid red';
+    }
+    function hideBorder() {
+        this.style.border = '';
+    } // have to be functions.
+    let elems = document.getElementsByTagName('div');
+    for (let i = 0; i < elems.length; i++ ) {
+        elems[i].onmouseover = showBorder;
+        elems[i].onmouseout = hideBorder;
+    }
+</script>  
+</body>
+</html>
