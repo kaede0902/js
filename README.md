@@ -94,8 +94,8 @@ const concated = arr1.concat(arr2);
 ## Mouse Events
 ### Mouse Over
 `let elems = document.getElementsByTagname('div')`  
-でall divを選択して, forで回し, 
-`elems[i].onmouseover = this.style....`で適用する  
+のように要素を選択して,
+`elem.onmouseover = styledFunc`で適用する  
 ```
 function showBorder() {
     this.style.border = '3px solid red';
@@ -112,3 +112,7 @@ for (let i = 0; i < elems.length; i++ ) {
 => div on mouse is surrounded by red border, 
 and div left by the mouse is by nothing.  
 ```
+## get
+`getElementsById('idName')`: assign an element by id  
+`getElementsByTagname('tagName')`: 
+assign all elements by tag's name.  

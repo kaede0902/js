@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body>
+    <a href="#!" class="button">Press me</a>
+    <button class="button" id='button'>Press me</button>
+
+    <script>
+        const hello = () =>
+            alert('Hello');
+        const button = document.getElementById('button');
+        console.log(button);
+        button.onclick = hello;
+    </script>
+    
+</body>
+</html>
