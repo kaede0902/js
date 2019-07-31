@@ -1,8 +1,10 @@
 # Chart.js Hello
 ## Min
 need this url. Use 2.0 over.
-<script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0"></script>
-canvas width setting will not be applied...
+<script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0" ></script>
+
+## Problem
+canvas width setting will not be applied...  
 test.html set width and height 400px, but returns 1350px.
 
 ## grammer
@@ -42,12 +44,14 @@ to start data from 1.
 
 ## BAR
 ### Usage
-Define type as `bar`  
-Define data num, 
-and define `labels` : ['hoge','huga','foo'],
-and type data value `data`: [0,1,2], 
-and define `backgroundColor`: 
-['rgba(0,0,0,0.1)','rgba(0,0,0,0.1)','rgba(0,0,0,0.1)',]
-then define `borderColor` same as that.  
+Define `type` as `bar`  
+Define data num,   
+`labels` : ['hoge','huga','foo'], for data names  
+`data`: [0,1,2], for data values   
+`backgroundColor`:  
+['rgba(0,0,0,0.1)','rgba(0,0,0,0.1)','rgba(0,0,0,0.1)',]  
+for each data's background color  
+`borderColor` :same as that.  
 
-finally define options like `beginAtZero`  .
+
+`options` like `beginAtZero`, 
