@@ -1,5 +1,5 @@
 ## Try this
-[LINK](https://kaede0902.github.io/JS/superIntro/ch03_dialogBox/))
+[LINK](https://kaede0902.github.io/JS/superIntro/ch03_dialogBox/)
 
 [prompt](./prompt.html)  
 [promptTree](./promptTree.html)  
