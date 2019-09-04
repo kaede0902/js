@@ -1,0 +1,16 @@
+<script>
+let num = Math.floor(Math.random()*6);
+let ans = parseInt(prompt(' Number Guessing Game!! Answer 0~5 !!'));
+let msg;
+if (ans == num) {
+    msg = 'Hit!!';
+} else if (ans < num) {
+    msg = 'Larger !';
+} else if (ans > num) {
+    msg = 'Smaller !';
+} else {
+    msg = 'type 0 ~ 5 !';
+}
+alert(msg);
+alert(num);
+</script>
