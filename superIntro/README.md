@@ -1,7 +1,7 @@
 # JavaScript Super Intro
 SB Creative, From 54p.  
-ch02  
-## rewrite html
+
+## ch02 rewrite html
 document.getElementById('IdName');  
 It get the whole Element by id.  
 ```
@@ -16,9 +16,8 @@ elem.textContent = new Date();
 console.log(elem);
 // => <p id="idName">Mon Sep 02 2019...</p>
 ```
--------
-ch03
-## dialog
+
+## ch03 dialog
 ### confirm
 Show OK or Cancel dialog box, 
 return ture or false.  

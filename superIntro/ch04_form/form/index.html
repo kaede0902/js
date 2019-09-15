@@ -1,0 +1,15 @@
+<div>
+    <form action="#" id="form">
+        <input type="text" name="word">
+        <input type="submit" name="find">
+    </form>
+    <p id="output"></p>
+</div>
+<script>
+document.getElementById('form').onsubmit = () => {
+    let search = document.getElementById('form').word.value;
+    document.getElementById('output').textContent = 
+        `finding ${search}...`;
+    return false;
+}
+</script>
