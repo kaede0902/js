@@ -4,13 +4,13 @@ SB Creative, From 54p.
 ## ch02 rewrite html
 document.getElementById('IdName');  
 It get the whole Element by id.  
-```
+```html
 <p id="foo">Dolor reiciendis eum corrupti voluptatum?</p>
 console.log(document.getElementById('foo'));
 // => <p id="foo">Dolor reiciendis...</p>
 ```
 ### elem.textContent
-```
+```js
 let elem = document.getElementById('idName');
 elem.textContent = new Date();
 console.log(elem);
@@ -21,14 +21,14 @@ console.log(elem);
 ### confirm
 Show OK or Cancel dialog box, 
 return ture or false.  
-```
+```js
 if (confirm('Game Start! Ready?'))
     alert('Game Starts');
 else
     alert('Game Ends');
 ```
 ### prompt
-```
+```js
 let ans = prompt('Watch Help?');
 console.log(ans);
 ```

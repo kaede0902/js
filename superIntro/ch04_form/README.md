@@ -1,6 +1,6 @@
 ## form
 ### submit test
-```
+```html
 <div>
     <form action="#" id="form">
         <input type="submit" value="find">
@@ -36,14 +36,14 @@ return false pretend page sending.
 `Math.PI`: 3.14.......  
 `Math.floor(num)`: cut num after point. under 0.  
 `Math.pow(num, exponent)`: exponent.  
-```
+```js
 console.log(Math.pow(2, 10));
 // 1024
 console.log(Math.pow(12, 2));
 // 144
 ```
 `Math.sqrt`: returns root.  
-```
+```js
 console.log(Math.sqrt(2));
 // 1.1421356...
 ```
