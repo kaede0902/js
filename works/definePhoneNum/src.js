@@ -25,5 +25,7 @@ form.onsubmit = () => {
         region.innerHTML = (`${num}: Atugi or Yokosuka`);
     else if (reg_fjsw.test(num))
         region.innerHTML = (`${num}: Fujisawa or Kamakura`);
+    else
+        region.innerHTML = (`${num}: None of our list, sorry`);
     return false;
 }
