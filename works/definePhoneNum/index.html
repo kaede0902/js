@@ -1,21 +1,19 @@
-<!DOCTYPE html>
-<html lang="en">
+<title>phone num</title>
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+<link rel="stylesheet" href="style.css">
+<div class="wrapper">
+<form id='form'>
+  <div class="form-group">
+    <label for="exampleInputEmail1">Phone Number</label>
+    <input type="tel" class="form-control" 
+    id="phone" name = 'hoge' 
+    placeholder="phone number here">
+    <small class="text-muted">sample: 045-444-4444</small>
+  </div>
+  <button type="submit" class="btn btn-primary">
+    Judge</button>
+</form>
+<p>region: Yokohama</p>
+</div>
+<script src="src.js"></script>
 
-<head>
-    <meta charset="UTF-8">
-    <title>Define Phone</title>
-    <script src="src.js"></script>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-
-</head>
-<body>
-    <div class = "mx-auto" style="width: 200px;" >
-   <textarea 
-        id="area1" name="" cols="30" rows="2" 
-        class="text-center"
-        placeholder = 'phone number here! '
-        onChange = 'changeTest()'
-    ></textarea>
-    </div>
-</body>
-</html>
