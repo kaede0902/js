@@ -2,7 +2,7 @@
 ## usage
 submit phone number, then you know where it from.
 ## link
-
+https://kaede0902.github.io/js/works/definePhoneNum/
 ## avalible area
 ```
 Yokohama: 045-
