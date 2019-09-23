@@ -4,8 +4,12 @@ need this url. Use 2.0 over.
 <script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0" ></script>
 
 ## Problem
+### size
+Cannot restrict canvas size.  
 canvas width setting will not be applied...  
 test.html set width and height 400px, but returns 1350px.
+### horizon
+When horizon bar, Purple disappear.  
 
 ## grammer
 set canvas  
@@ -19,7 +23,7 @@ const chartName = new Chart(ctx, {
         data: {
             labeles: [],
             datasets: [{
-                lable: 'DataName',
+                label: 'DataName',
                 data: [1,2,3,4,],
                 backgroundColor: [
                     '#FFF'

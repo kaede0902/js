@@ -1,0 +1,5 @@
+let ssn = 444-55-3333
+
+let ptn = /^\d(3)-?\d(2)-?\d(4)$/;
+
+console.log(ssn.test(ptn));

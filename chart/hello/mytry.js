@@ -1,11 +1,12 @@
 const ctx = document.getElementById('chart').getContext('2d');
 const chart = new Chart(ctx, {
     type: 'bar',
+    // purple disappear when 'horizontalBar'
     data: {
         labels: ['Red','Blue','Yellow','Green','Purple'],
         datasets: [{
-            lable: '# of Votes',
-            data: [5,4,3,2,1],
+            label: '# of Votes',
+            data: [10,4,3,2,1],
             backgroundColor: [
                 'rgba(255,99,132,0.2)',
                 //red

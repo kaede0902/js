@@ -57,12 +57,28 @@ This replace every char in []
 
 ## regexp
 ### grammer
+surrounded by `/ /`.  
 /i: ignore big or small char  
 /g: search global. without this one match ends searching  
-[abc]: all abc chars match.  
-[0-9]: 0 to 9 match  
-[a-z]: a to z match  
-[\-]: select `-`, escape sequence  
+[abc] : a  or b or c  
+[^a] : start with a. ABB is true.  
+[a$] : end with a. BBA is true. 
+[0-9] : 0 to 9  
+[a-z] : a to z  
+[\-] : select `-`, escape sequence  
+
+[fe*]: e appears 0 or more times after f.  
+e.g. f, fe, fee, feeeee,
+[fe+] : e appears 1 or more. 
+e.g. fe, fee, feeee, 
+[fe?]: 0 or 1.No.
+e.g. f, fe,
+
+{n} : n times last char. 
+[0-9]{3}: 000, 012, 950, 
+
+\d{3}: 3 digit. e.g. 000,111,999,  
+
 ### match
 returns everything that matches the regexp by arr.  
 w{3,} ig:  
@@ -77,4 +93,5 @@ return matched or not
 ### exec
 exec regexp.
 next exec is next words.
+### samples
 

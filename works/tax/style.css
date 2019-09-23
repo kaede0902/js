@@ -1,9 +1,21 @@
 
 * {
-    width: 200px;
     margin: auto;
 }
 .wrapper {
     text-align: center;
     transform: translateY(100%);
+}
+.form-control {
+    width: 200px;
+    margin: auto;
+}
+.btn {
+    width: 164px;
+}
+label{
+    font-size: 32px;
+}
+#result {
+    font-size: 32px;
 }
