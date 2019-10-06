@@ -1,0 +1,24 @@
+{
+  "name": "chart.js_hoge",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "chart.js": "^2.8.0",
+    "vue": "^2.6.10"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kaede0902/dotfiles.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kaede0902/dotfiles/issues"
+  },
+  "homepage": "https://github.com/kaede0902/dotfiles#readme"
+}
